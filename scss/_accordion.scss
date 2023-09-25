@@ -1,0 +1,42 @@
+.faq{
+
+    padding:75px;
+    .accordion-head{
+        font-size:57px;
+        font-weight:600
+    }
+    .accordion{
+
+        --bs-accordion-border-color: #000D0D;
+        --bs-accordion-border-width: 1px solid;
+
+        button{
+            padding-left:0;
+            border-bottom: 1px solid black;
+            font-size:28px;
+            color:#000D0D;
+            font-weight:500
+        }
+
+        .accordion-body{
+            padding:35px 0;
+            font-size:16px
+        }
+
+        .accordion-flush .accordion-collapse{
+            
+        }
+        
+    .accordion-button:focus{
+     z-index: 3;
+    border:none ;
+    outline: 0;
+    box-shadow: none;
+        }
+
+       .accordion-button:not(.collapsed){
+        background-color:#fff
+       }
+
+    }
+}

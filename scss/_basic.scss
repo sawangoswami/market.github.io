@@ -1,0 +1,45 @@
+$main-font:Poppins, sans-serif;
+$primary-color: black;
+$secondary-color:#00b26a;
+
+.txt-clr{
+    color:$secondary-color
+}
+
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing:border-box
+}
+body{
+    font-family:$main-font
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration:none;
+    font-size:16px;
+}
+
+body{
+
+    font-family:$main-font
+}
+
+a{
+    display:inline-block;
+}
+
+.navbar-toggler-icon{
+    background-image: url(/img/clipart365828.png);
+}
+.bg-dark{
+    background-color: black!important;
+}
+

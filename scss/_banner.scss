@@ -1,0 +1,131 @@
+// sccs for banner/hero section
+
+.suave-banner {
+    background-color: #020003;
+    color: #fff;
+    // position: relative;
+    // top:-73px;
+    // z-index:-1;
+    
+  
+    .section-vid{
+   
+    padding-bottom: 100px;
+    min-height: calc(100vh - 250px);
+    display: flex;
+    // flex-wrap: wrap;
+    // align-items: center;
+    &::before {
+        content: "";
+        background-color: rgba(0, 178, 106, 0.1);
+        background-image: linear-gradient(to bottom, black, rgba(0, 178, 106, 0.07) 40%, black 100%);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:86px;
+        bottom: -19px;
+        z-index: 1;
+    }
+   
+}
+
+.vid-wrap{
+    position: absolute;
+    justify-content: end;
+    display: flex;
+    top: 86px;
+    
+   video{
+         
+            width: 70%;
+            object-fit: cover;
+            
+        }
+        .position-absolute{
+            right:0
+        }
+    }
+
+    
+    .content-area{
+        padding-top:160px;
+        padding-right:18px;
+        h1{
+    font-size: 3.5vw;
+    line-height: 4.5vw;
+    letter-spacing: normal;
+    margin-bottom:15px;
+    margin-top:12px;
+        }
+    .elec{
+        font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+
+    &:before{
+     content: "";
+    height: 26px;
+    width: 26px;
+    background-image: url(../img/ai-cion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+}
+        }
+
+        .custom-btn{ 
+            column-gap:20px;
+            margin-top:20px;
+            height: 60px;
+            a {
+            display:inline-block;
+            max-width:200px;
+            width:100%;
+            padding:15px 40px;
+            font-weight: 600;
+            color:#fff;
+            border:1px solid #fff;
+            transition:0.3s;
+            position:relative;
+           
+            &:hover{
+                background-color:$secondary-color;
+                 border: 1px solid $secondary-color;
+
+            }
+        }
+
+        a:nth-child(1){
+          background-color: $secondary-color;
+          border:none;
+          transition:0.3s;
+          &:hover{
+            color: $secondary-color;
+            background-color:#fff;
+          }
+        }
+    }
+    }
+
+    .mobile .img{
+        padding-top:14px
+    }
+
+    .mobile .img img{
+        max-width:100%;
+        height:auto;
+
+        object-fit: cover;
+    }
+
+    .mobile .mobile-content {
+     
+   padding:50px 0 50px 50px
+    }
+
+}

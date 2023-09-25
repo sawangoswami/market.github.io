@@ -1,0 +1,23 @@
+.address{
+    padding: 60px 0;
+    background-color: #020003;
+    color: #fff;
+
+    .col-lg-6 .img-icon img{
+        max-width:32%;
+        object-fit: contain;
+    }
+
+    h2{
+        font-size: 52.7px;
+        font-weight: 600;
+    }
+
+    h3{
+        font-size: 36px;
+        font-weight:500
+    }
+    p{
+        font-size:22px
+    }
+}

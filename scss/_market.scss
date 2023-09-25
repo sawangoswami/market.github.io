@@ -1,0 +1,67 @@
+.market{
+    padding-top:120px;
+    color:rgb(0, 13, 13);
+
+    
+     
+    .market-text p{
+        padding:6px 6px 6px 8px;
+        font-size:20px;
+        font-weight:400;
+       
+    }
+
+    .market-text h3{
+      font-size:50px;
+      font-weight:600;
+     
+    }
+
+    .untapped h3{
+        font-size:40px
+    }
+    .untapped p{
+        line-height: 28px;
+    }
+
+    .amplified .h3{
+        font-size:40px
+    }
+
+    .amplified p{
+        line-height: 28px;
+        
+    }
+
+    .untapped .price{
+        margin-top:70px;
+
+        p{
+            font-weight:600
+        }
+        h3{
+            font-size:31px;
+            font-weight: 700;
+        }
+
+    }
+
+    .map{
+     margin-left:-93px;
+     position:relative;
+     z-index: -1;
+    }
+
+    .map img{
+      width: 130%;
+      object-fit: cover;
+     }
+     .map .car{
+        top:-211px;
+        left:77px;
+     }
+     .map .car img{
+        width:100%
+     } 
+}
+
